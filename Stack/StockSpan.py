@@ -1,6 +1,6 @@
 nums = [100,80,60,70,60,75,85]
 
-def StockPlan(arr):
+def StockSpan(arr):
     stack = []
     result = []
     for index, value in enumerate(arr):
@@ -19,4 +19,4 @@ def StockPlan(arr):
     return result
 
 
-print(StockPlan(nums))
+print(StockSpan(nums))
