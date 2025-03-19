@@ -13,8 +13,8 @@ def NGR(arr):
             result.append(-1)
         elif len(stack) != 0 and stack[-1] > i:
             result.append(stack[-1])
-        elif len(stack) != 0 and stack[-1] < i:
-            while len(stack) > 0 and stack[-1] < i:
+        elif len(stack) != 0 and stack[-1] <= i:
+            while len(stack) > 0 and stack[-1] <= i:
                 stack.pop()
             if len(stack) == 0:
                 result.append(-1)
