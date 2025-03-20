@@ -3,7 +3,7 @@
 from collections import deque
 
 
-nums = [1,3,2,4]
+nums = [9,4,6,8,10,3]
 
 def NGR(arr):
     stack = deque() 
