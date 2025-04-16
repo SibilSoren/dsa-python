@@ -1,4 +1,4 @@
-def isPossible(books,m,mid):
+def isPossible(books,m,mid) :
     students = 1
     maxPageSum = 0
     for book in books:
